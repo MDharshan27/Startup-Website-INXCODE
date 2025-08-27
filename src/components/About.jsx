@@ -56,7 +56,7 @@ export default function About() {
             className="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition transform hover:-translate-y-2 w-72 md:w-80"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: i * 0.3 }} // stagger effect
+            transition={{ duration: 0.8, delay: i * 0.3 }}
             viewport={{ once: true }}
           >
             {v.icon}
