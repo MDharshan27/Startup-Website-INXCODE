@@ -1,5 +1,5 @@
 import { FaLightbulb, FaRocket, FaUsers } from "react-icons/fa";
-import { motion } from "framer-motion"; // ✅ Import motion
+import { motion } from "framer-motion";
 
 export default function About() {
   const values = [
@@ -31,7 +31,7 @@ export default function About() {
         initial={{ opacity: 0, y: -30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        viewport={{ once: true }} // animate only once
+        viewport={{ once: true }}
       >
         About Neuronix
       </motion.h2>

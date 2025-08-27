@@ -21,9 +21,9 @@ export default function Hero() {
       {/* Content */}
       <motion.div
         className="relative z-10 text-white"
-        initial={{ opacity: 0, y: 50 }}         // Start hidden and pushed down
-        animate={{ opacity: 1, y: 0 }}          // Fade in and move up
-        transition={{ duration: 1, ease: "easeOut" }} // Smooth effect
+        initial={{ opacity: 0, y: 50 }}   
+        animate={{ opacity: 1, y: 0 }}   
+        transition={{ duration: 1, ease: "easeOut" }} 
       >
         <motion.h1
           className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-semibold mb-4"
