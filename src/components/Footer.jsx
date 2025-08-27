@@ -1,4 +1,4 @@
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaWhatsapp, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -7,14 +7,17 @@ export default function Footer() {
         © 2025 Neuronix. All rights reserved.
       </p>
       <div className="flex justify-center space-x-6 text-gray-600">
-        <a href="#" className="hover:text-blue-500 transition">
+        <a href="#" className="hover:text-blue-500 transition transform hover:scale-110">
           <FaFacebookF />
         </a>
-        <a href="#" className="hover:text-purple-500 transition">
-          <FaTwitter />
+        <a href="#" className="hover:text-green-500 transition transform hover:scale-110">
+          <FaWhatsapp />
         </a>
-        <a href="#" className="hover:text-pink-500 transition">
+        <a href="#" className="hover:text-blue-500 transition transform hover:scale-110">
           <FaLinkedinIn />
+        </a>
+        <a href="#" className="hover:text-pink-500 transition transform hover:scale-110">
+          <FaInstagram />
         </a>
       </div>
     </footer>
