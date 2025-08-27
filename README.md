@@ -23,3 +23,38 @@ inxcode-website/
 ├─ vite.config.js
 └─ README.md
 ```
+
+## Setup Instructions
+1. Clone the repository:
+```
+git clone https://github.com/MDharshan27/Startup-Website-INXCODE.git
+```
+
+2.Install dependencies:
+```
+npm install
+```
+3.Run development server:
+```
+npm run dev
+```
+4.Build for production:
+```
+npm run build
+```
+5.Preview production build:
+```
+npm run preview
+```
+
+##Decisions Made
+- Used Vite for fast React setup and HMR.
+- Tailwind CSS for responsive utility-first styling.
+- Components kept modular for scalability.
+- Minimal React state; JSON used for data-driven sections.
+
+##Live Demo
+https://startup-website-inxcode.netlify.app
+
+##GitHub Repository
+https://github.com/MDharshan27/Startup-Website-INXCODE
