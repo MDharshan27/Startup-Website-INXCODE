@@ -1,14 +1,24 @@
 # Startup Website - INXCODE
 
-A single-page startup website built with React, Vite, and Tailwind CSS for the INXCODE internship task.  
+A **single-page startup website** built with **React, Vite, and Tailwind CSS** for the INXCODE internship task.  
 
 ## Features
 - Header, Hero, About, Services, Portfolio, Contact, Footer  
 - Mobile-first responsive design  
 - Contact form with basic validation  
+- Portfolio section with hover animations  
 
-## Live Demo
-[https://startup-website-inxcode.netlify.app](https://startup-website-inxcode.netlify.app)  
+## Project Structure
 
-## GitHub Repository
-[https://github.com/MDharshan27/Startup-Website-INXCODE](https://github.com/MDharshan27/Startup-Website-INXCODE)
+inxcode-website/
+├─ public/               # Static assets like favicon
+├─ src/
+│  ├─ assets/            # Images and icons
+│  ├─ components/        # Header, Hero, About, Services, Portfolio, Contact, Footer
+│  ├─ data/              # JSON for services and portfolio
+│  ├─ App.jsx
+│  ├─ main.jsx
+│  └─ index.css
+├─ package.json
+├─ vite.config.js
+└─ README.md
