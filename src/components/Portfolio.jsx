@@ -17,7 +17,7 @@ export default function Portfolio() {
     <section id="portfolio" className="py-20 bg-white text-center">
       {/* Section Heading */}
       <motion.h2
-        className="text-4xl md:text-5xl font-semibold mb-12 text-[color:#0a3d62]"
+        className="text-4xl md:text-5xl font-semibold mb-12 text-[#0a3d62]"
         initial={{ opacity: 0, y: -50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
@@ -45,24 +45,30 @@ export default function Portfolio() {
             />
 
             {/* Hover Overlay */}
-            <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-white transition-opacity duration-500">
+            <motion.div
+              className="absolute inset-0 bg-black/50 flex flex-col justify-center items-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+              initial={{ opacity: 0 }}
+              whileHover={{ opacity: 1 }}
+            >
               <motion.h3
-                className="text-xl font-semibold"
+                className="text-xl font-semibold mb-2"
                 initial={{ y: 20, opacity: 0 }}
-                whileHover={{ y: 0, opacity: 1 }}
+                whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.3 }}
+                viewport={{ once: true }}
               >
                 {project.title}
               </motion.h3>
               <motion.p
                 className="text-sm"
                 initial={{ y: 20, opacity: 0 }}
-                whileHover={{ y: 0, opacity: 1 }}
+                whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.3, delay: 0.1 }}
+                viewport={{ once: true }}
               >
                 {project.tags.join(", ")}
               </motion.p>
-            </div>
+            </motion.div>
           </motion.div>
         ))}
       </div>
