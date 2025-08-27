@@ -9,7 +9,7 @@ A **single-page startup website** built with **React, Vite, and Tailwind CSS** f
 - Portfolio section with hover animations  
 
 ## Project Structure
-
+```
 inxcode-website/
 ├─ public/               # Static assets like favicon
 ├─ src/
@@ -22,3 +22,4 @@ inxcode-website/
 ├─ package.json
 ├─ vite.config.js
 └─ README.md
+```
