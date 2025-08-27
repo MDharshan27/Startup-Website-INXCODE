@@ -1,12 +1,49 @@
-# React + Vite
+# Startup Website - INXCODE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **single-page startup website** built with **React, Vite, and Tailwind CSS** for the INXCODE internship technical task.  
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Header with logo and smooth-scroll navigation  
+- Hero section with headline, subtext, and call-to-action  
+- About section with company intro and 3 key values  
+- Services section with cards populated from JSON  
+- Portfolio grid showcasing projects  
+- Contact form with basic validation  
+- Footer with social placeholders  
+- Mobile-first responsive design  
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+inxcode-website/
+├─ public/ # Static assets like favicon
+├─ src/
+│ ├─ assets/ # Images and icons
+│ ├─ components/ # Header, Hero, About, Services, Portfolio, Contact, Footer
+│ ├─ data/ # JSON for services and portfolio
+│ ├─ App.jsx
+│ ├─ main.jsx
+│ └─ index.css
+├─ package.json
+├─ vite.config.js
+└─ README.md
+
+## Getting Started
+
+1. Clone the repo:
+git clone https://github.com/MDharshan27/Startup-Website-INXCODE.git
+
+2.Install dependencies:
+npm install
+
+3.Run development server:
+npm run dev
+
+4.Build for production:
+npm run build
+
+5.Preview production build:
+npm run preview
+
+6.Live Demo
+https://startup-website-inxcode.netlify.app
