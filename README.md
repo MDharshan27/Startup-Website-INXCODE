@@ -47,14 +47,14 @@ npm run build
 npm run preview
 ```
 
-##Decisions Made
+## Decisions Made
 - Used Vite for fast React setup and HMR.
 - Tailwind CSS for responsive utility-first styling.
 - Components kept modular for scalability.
 - Minimal React state; JSON used for data-driven sections.
 
-##Live Demo
+## Live Demo
 https://startup-website-inxcode.netlify.app
 
-##GitHub Repository
+## GitHub Repository
 https://github.com/MDharshan27/Startup-Website-INXCODE
